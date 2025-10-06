@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>  <!-- Metadatos == información sobre la página web no es visible para el usuario en el navegador -->
-        <meta charset="UTF-8">
-        <title> Mi Portafolio </title>
+        <meta charset="UTF-8"> <!-- UTF-8 para permitir tildes 'ñ', '¿?'... -->
+        <link rel="stylesheet" href="style.css"> <!-- Vincular estilo CSS -->
+        <title> Mi Portafolio </title> <!-- Texto en la pestaña del navegador y título de los resultados de búsqueda-->
     </head>
     <body>
         <header>
-            <h1>Pablo I. Méndez Castelo</h1>
-            <nav>
-                <a href="#sobre-mi">Sobre mí</a>
-                <a href="#proyectos">Proyectos</a>
-                <a href="#contacto">Contacto</a>
+            <h1 class="titulo">Pablo Mendez</h1> 
+            <nav> 
+                <div class="nav-bg">
+                    <nav class="navegacion-principal contenedor">
+                        <a href="#sobre-mi">Sobre mi</a>
+                        <a href="#proyectos">Proyectos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+                </div>
             </nav>
         </header>
 
+        <main>
+            <section id="sobre-mi">
+                <h2>Sobre mí</h2>
+                <p>Titulado en formación profesional de <b>Desarrollo de Aplicaciones Multiplataforma</b>
+                    donde mi mayor enfoque ha sido en el lenguaje de programación <b>Java, Oracle y 
+                    Kotlin</b> para Android. <b>Responsable, comprometido, proactivo y con alta capacidad 
+                    de aprendizaje</b>. Busco una <b>oportunidad</b> laboral donde aplicar mis conocimientos y
+                    aumentarlos para así poder seguir formandome en el mundo laboral que me apasiona. 
+                </p>
+            </section>
+
+            <section id="proyectos">
+                <h2>Proyectos</h2>
+                
+            </section>
+
+            <section id="contacto">
+                <h2>Contacto</h2>
+                
+            </section>
+        </main>
+
+        <footer>
+            <p>2025 Pablo I. Méndez Castelo. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
