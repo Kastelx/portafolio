@@ -1,0 +1,45 @@
+:root {
+    --Gris-claro: #334a5fec;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    background-color: #334a5fec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+    z-index: 1000;
+}
+
+
+header h1, header nav a {
+    line-height: 1; /* disminuir el tamaño vertical de la navegación */
+    font-size: 1.2rem; /* tamaño fuente de la parte superior header */
+  }
+  
+.titulo {
+    justify-content: right;
+    margin-right: 150px;
+    color: whitesmoke;
+    font-weight: 200; /* grosor fuente */
+}
+
+.nav-bg {
+    justify-content: center;
+    text-decoration: none;
+
+}
+main {
+    
+
+}
+body {
+    margin-top: 60px;
+    justify-content: center;
+    display:inline-table;
+
+}
